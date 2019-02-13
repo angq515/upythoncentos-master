@@ -12,7 +12,7 @@ def hanoi(n, a, b, c):
         print(a, '-->', c)
         hanoi(n - 1, b, a, c)
 # 调用
-hanoi(1, 'A', 'B', 'C')
+hanoi(5, 'A', 'B', 'C')
 
 
 # 期待输出:
@@ -23,4 +23,4 @@ hanoi(1, 'A', 'B', 'C')
 # B --> A
 # B --> C
 # A --> C
-move(3, 'A', 'B', 'C')
+# move(3, 'A', 'B', 'C')
